@@ -24,7 +24,7 @@ mongoose
     .catch((err) => console.log(err));
 
 const user = require("./api/routes/user");
-// const contact = require("./api/routes/contact");
+const contact = require("./api/routes/contact");
 
 app.use("/", user);
-// app.use("/", contact);
+app.use("/", contact);
