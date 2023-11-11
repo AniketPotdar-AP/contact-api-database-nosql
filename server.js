@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser")
-const app = express();
+const app = express(); 
 const dotenv = require('dotenv')
 const port = process.env.PORT || 3000;
 const dbURI = "mongodb+srv://user:9CMLHeXvdwbd6sYd@contactcrud.ccdwvgc.mongodb.net/?retryWrites=true&w=majority";
